@@ -28,4 +28,4 @@ Sections:
 
 Feel free to connect with me via the contact section on the site!
 
-                                                                                              Built with ❤️ by Atmadip Bakshi
+                                                                            Built with ❤️ by Atmadip Bakshi
