@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d0d0d;
+  color: #f0f0f0;
+  scroll-behavior: smooth;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.profile-container {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00f7ff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.edu {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.connect-btn-container {
+  margin-top: 30px;
+}
+
+.connect-btn {
+  padding: 10px 25px;
+  background: #00f7ff;
+  border: none;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.connect-btn:hover {
+  background: #00c7d4;
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+}
+
+/* Sections */
+section {
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: auto;
+  transition: all 0.4s ease-in-out;
+}
+
+section:not(:first-child)::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #00f7ff, transparent);
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00f7ff;
+}
+
+/* About */
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Hackathons & Clubs */
+.hackathons ul {
+  list-style: square inside;
+  margin-bottom: 30px;
+}
+
+.hackathons ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Projects - One at a time */
+.project-display {
+  text-align: center;
+  margin-top: 20px;
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.project-display h3 {
+  font-size: 1.5rem;
+  color: #00f7ff;
+  margin-bottom: 10px;
+}
+
+.project-display p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.project-display a {
+  color: #00f7ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-display a:hover {
+  text-decoration: underline;
+}
+
+.project-nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.project-nav button {
+  background: #1e1e1e;
+  color: #00f7ff;
+  border: 1px solid #00f7ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-nav button:hover {
+  background: #00f7ff;
+  color: #000;
+}
+
+/* Contact */
+.contact-box {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+  outline: none;
+  border-color: #00f7ff;
+  background: #333;
+}
+
+.contact-box button {
+  background-color: #00f7ff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-box button:hover {
+  background-color: #00c7d4;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-links a {
+  margin: 0 15px;
+  font-size: 1.1rem;
+  color: #00f7ff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #777;
+}
